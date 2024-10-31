@@ -19,7 +19,7 @@ export function AuthDialog({
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent>
         <VisuallyHidden>
-          <DialogTitle>Sign in to E2B</DialogTitle>
+          <DialogTitle>Sign in to Innovate Hub Ph</DialogTitle>
         </VisuallyHidden>
         <AuthForm supabase={supabase} view={view} />
       </DialogContent>
