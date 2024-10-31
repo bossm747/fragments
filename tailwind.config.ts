@@ -59,6 +59,10 @@ const config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        innovateHub: {
+          DEFAULT: '#ff8800',
+          foreground: '#ffffff',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
